@@ -1,0 +1,169 @@
+
+/* .container {
+    border: solid;
+} */
+h2, h3 {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.row {
+    display: flex;
+    /* border: solid; */
+}
+
+.column-left {
+    width: 60vw;
+    height: auto;
+    float: left;
+    /* border: solid; */
+}
+
+.column-right {
+    width: 40vw;
+    height: auto;
+    float: right;
+    border: solid;
+    background-color: lightgray;
+}
+
+tr:hover {
+    background-color: rgb(76, 0, 255);
+}
+
+td {
+    border: 1px solid;
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+nav {
+    text-align: center;
+    padding-left: 1em; 
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em; 
+}
+
+.navlink {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.main-title {
+        text-align: center;
+    }
+
+    .main-photo {
+        width: 53vw;
+        margin: auto;
+        display: block;
+        border: solid;
+        border-radius: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .caption-text {
+        text-align: center;
+    }.about-title {
+        padding-left: 1em;
+    }
+
+    #about-us-text {
+        text-align: justify;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 1.5em;
+    }
+
+    .location {
+        width: auto;
+        height: auto;
+        float: left;
+    }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 300px;
+        }
+
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+    

@@ -166,4 +166,24 @@ nav {
           background-color: #f2f2f2;
           padding: 20px;
         }
-    
+
+                .main-title {
+                text-align: center;
+            }
+                .main-title {
+                text-align: center;
+            }
+            .main-photo {
+    width: 53vw;
+    margin: auto;
+    display: block;
+    border: solid;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.caption-text {
+                text-align: center;
+            }
+
+            
